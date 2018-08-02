@@ -1,5 +1,5 @@
 //strikethrough
-$("ul").on("click", function(){
+$("ul").on("click", "li" , function(){
 	$(this).toggleClass("completed");
 })
 //delete ToDo 
